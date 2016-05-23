@@ -1,0 +1,102 @@
+body{
+	background 	: rgba(255,255,255,1);
+}
+
+#topBox{
+	background 	: rgba(0,0,0,0.1); 
+	position 	: absolute;
+	top 		: 0px;
+	left 		: 0px;
+	width 		: 100vw;
+	height 		: 50vh;
+	z-index 	: 5;
+}
+
+#bottomBox{
+	background 	: rgba(0,0,0,0.1); 
+	position 	: absolute;
+	bottom 		: 0px;
+	left 		: 0px;
+	width 		: 100vw;
+	height 		: 50vh;
+	z-index 	: 5;
+}
+
+#splashContent{
+	line-height : 210px; /*allows vertical alignment*/
+	text-align 	: center;
+	height 		: 210px;
+	width 		: 100%; /*100% of div content*/
+	position 	: absolute;
+	left 		: 0px;
+	right 		: 0px;
+	bottom 		: 0px;
+	top 		: 0px;
+	margin 		: auto;
+}
+
+#splashContent img{
+	width 			: 50px;
+	margin 			: 50px;
+	vertical-align	: middle;
+	display 		: none;
+}
+
+#h1Name{
+	color 		: black;
+	size 		: 50pt;
+	font-family : sans-serif;
+}
+
+#myName{
+	position 	: absolute;
+	left 		: 0px;
+	top 		: 10px;
+	color 		: white;
+	font-family : sans-serif;
+	font-size	: 20pt;
+	width 		: 30vw;
+	padding-left: 50px;
+/*	border 		:solid 1px red;
+*/	display 	: none;
+}
+
+#navBar{
+	background 	: none;
+	position 	: absolute;
+	top 		: 10px;
+	right 		: 0px;
+	width 		: 70vw;
+	font-family : sans-serif; 
+	display 	:none;
+/*	border 		: solid 1px yellow;
+*/}
+
+
+nav ul{
+	background  : none;
+	margin 		: 0 auto;
+	
+}
+nav ul li{
+	list-style 	: none;
+	text-align 	: center;
+	display 	: inline-block;
+	color 		: white;
+	padding-left : 80px; /*Needs adjustment for smaller display size*/
+
+}
+
+nav ul li a{
+	text-decoration	: none;
+	color 			:white ;
+}
+
+nav ul li a:hover{
+	text-decoration	: none;
+	color 			: gray ;
+}
+
+#pageContent{
+	position 	: absolute;
+}
